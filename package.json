@@ -1,0 +1,19 @@
+{
+  "name": "renes-minigolf-world",
+  "version": "1.0.0",
+  "description": "Rene's Minigolf World – 3D-Minigolf mit Mehrspieler",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "express": "^5.3.0",
+    "redis": "^4.7.1",
+    "ws": "^8.22.1"
+  }
+}
